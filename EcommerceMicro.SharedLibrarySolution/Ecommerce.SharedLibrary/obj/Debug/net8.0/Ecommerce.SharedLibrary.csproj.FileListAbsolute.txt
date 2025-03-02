@@ -1,0 +1,14 @@
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\bin\Debug\net8.0\Ecommerce.SharedLibrary.deps.json
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\bin\Debug\net8.0\Ecommerce.SharedLibrary.dll
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\bin\Debug\net8.0\Ecommerce.SharedLibrary.pdb
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.AssemblyInfoInputs.cache
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.AssemblyInfo.cs
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.csproj.CoreCompileInputs.cache
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.dll
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\refint\Ecommerce.SharedLibrary.dll
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.pdb
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\ref\Ecommerce.SharedLibrary.dll
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\bin\Debug\net8.0\Ecommerce.SharedLibrary.runtimeconfig.json
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.csproj.AssemblyReference.cache
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.genruntimeconfig.cache
