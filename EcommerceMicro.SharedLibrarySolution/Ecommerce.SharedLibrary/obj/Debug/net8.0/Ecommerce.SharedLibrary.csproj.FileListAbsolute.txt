@@ -12,3 +12,4 @@ D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.Sha
 D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\bin\Debug\net8.0\Ecommerce.SharedLibrary.runtimeconfig.json
 D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.csproj.AssemblyReference.cache
 D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.genruntimeconfig.cache
+D:\SP25\PRN231\EcommerceMicro\EcommerceMicro.SharedLibrarySolution\Ecommerce.SharedLibrary\obj\Debug\net8.0\Ecommerce.SharedLibrary.sourcelink.json
