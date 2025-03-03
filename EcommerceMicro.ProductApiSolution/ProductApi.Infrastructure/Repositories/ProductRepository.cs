@@ -42,8 +42,10 @@ namespace ProductApi.Infrastructure.Repositories
                 LogException.LogExceptions(ex);
 
                 //display scary-fee to client
-                return new Response(false, "Error occurred adding new product");
+                return new Response(false, $"Error occurred adding new product: {ex.Message}");
             }
+
+
         }
 
         public async Task<Response> DeleteAsync(Product entity)
@@ -55,7 +57,8 @@ namespace ProductApi.Infrastructure.Repositories
                 {
                     return new Response(false, $"{entity.Name} not found");
                 }
-                context.Products.Remove(entity);
+
+                context.Products.Remove(product);
                 await context.SaveChangesAsync();
                 return new Response(true, $"{entity.Name} is deleted successfully");
             }
@@ -74,7 +77,7 @@ namespace ProductApi.Infrastructure.Repositories
         {
             try
             {
-                var product = await context.Products.FindAsync(id);
+                var product = await context.Products.FirstOrDefaultAsync(p => p.Id == id);
 
 
                 return product is not null ? product : null!;
@@ -94,7 +97,7 @@ namespace ProductApi.Infrastructure.Repositories
         {
             try
             {
-                var productList = await context.Products.ToListAsync();
+                var productList = await context.Products.AsNoTracking().ToListAsync();
 
 
                 return productList is not null ? productList : null!;
@@ -114,7 +117,7 @@ namespace ProductApi.Infrastructure.Repositories
         {
             try
             {
-                var product = await context.Products.Where(predicate).FirstOrDefaultAsync(predicate)!;
+                var product = await context.Products.Where(predicate).FirstOrDefaultAsync()!;
                 return product is not null ? product : null!;
             }
             catch (Exception ex)

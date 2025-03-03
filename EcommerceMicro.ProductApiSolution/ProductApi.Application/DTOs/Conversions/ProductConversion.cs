@@ -1,14 +1,12 @@
 ﻿using ProductApi.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProductApi.Application.DTOs.Conversions
 {
-    public static class ProcductConversions
+    //to convert to DTOs
+    public static class ProductConversion
     {
+
+        //convert DTO to entity
         public static Product ToEntity(ProductDTO product) => new()
         {
             Id = product.Id,
@@ -16,10 +14,12 @@ namespace ProductApi.Application.DTOs.Conversions
             Quantity = product.Quantity,
             Price = product.Price
         };
+
+        //convert entity to DTO
         public static (ProductDTO?, IEnumerable<ProductDTO>?) FromEntity(Product product, IEnumerable<Product>? products)
         {
             //return single
-            if (product is null || products is null)
+            if (product is not null || products is null)
             {
                 var singleProduct = new ProductDTO(
                     product!.Id,
@@ -31,7 +31,7 @@ namespace ProductApi.Application.DTOs.Conversions
             }
 
             //return list
-            if (product is not null || products is not null)
+            if (product is null || products is not null)
             {
                 var _products = products.Select(p =>
                                     new ProductDTO(p.Id, p.Name, p.Quantity, p.Price)).ToList();
