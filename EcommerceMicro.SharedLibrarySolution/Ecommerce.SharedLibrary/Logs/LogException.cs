@@ -12,10 +12,10 @@ namespace Ecommerce.SharedLibrary.Logs
             LogToDebugger(ex.Message);
         }
 
-        private static void LogToFile(string message) => Log.Information(message);
+        public static void LogToFile(string message) => Log.Information(message);
 
-        private static void LogToConsole(string message) => Log.Warning(message);
+        public static void LogToConsole(string message) => Log.Warning(message);
 
-        private static void LogToDebugger(string message) => Log.Debug(message);
+        public static void LogToDebugger(string message) => Log.Debug(message);
     }
 }
