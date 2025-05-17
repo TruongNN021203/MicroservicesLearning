@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {}
+    "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {}
   },
   "projects": {
-    "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {
+    "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
+        "projectUniqueName": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
         "projectName": "ProductApi.Application",
-        "projectPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
+        "projectPath": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\ProductApi.Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\obj\\",
+        "outputPath": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
-                "projectPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj"
+              "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+                "projectPath": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj"
               },
-              "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj": {
-                "projectPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj"
+              "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj": {
+                "projectPath": "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj"
               }
             }
           }
@@ -70,19 +70,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.103, 9.0.103]"
+              "version": "[9.0.106, 9.0.106]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -90,18 +90,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+    "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "projectUniqueName": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
         "projectName": "ProductApi.Domain",
-        "projectPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "projectPath": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\ProductApi.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\obj\\",
+        "outputPath": "D:\\EcommerceMicro\\EcommerceMicro.ProductApiSolution\\ProductApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -153,19 +153,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.103, 9.0.103]"
+              "version": "[9.0.106, 9.0.106]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -173,18 +173,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj": {
+    "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj",
+        "projectUniqueName": "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj",
         "projectName": "Ecommerce.SharedLibrary",
-        "projectPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj",
+        "projectPath": "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\Ecommerce.SharedLibrary.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SP25\\PRN231\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\obj\\",
+        "outputPath": "D:\\EcommerceMicro\\EcommerceMicro.SharedLibrarySolution\\Ecommerce.SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -266,19 +266,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.103, 9.0.103]"
+              "version": "[9.0.106, 9.0.106]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.16, 8.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -286,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.106/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
