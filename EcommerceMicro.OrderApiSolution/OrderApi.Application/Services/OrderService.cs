@@ -14,7 +14,7 @@ namespace OrderApi.Application.Services
         {
             //call product api sing httpclient
             //redirect this call to the api gateway since product api is not response to outsiders
-            var getProduct = await httpClient.GetAsync($"/api/Product/{productId}");
+            var getProduct = await httpClient.GetAsync($"/api/products/{productId}");
             if (!getProduct.IsSuccessStatusCode)
             {
                 return null!;
@@ -29,7 +29,7 @@ namespace OrderApi.Application.Services
         {
             //call user api sing httpclient
             //redirect this call to the api gateway since product api is not response to outsiders
-            var getUser = await httpClient.GetAsync($"/api/product/{userID}");
+            var getUser = await httpClient.GetAsync($"/api/authentication/{userID}");
             if (!getUser.IsSuccessStatusCode)
             {
                 return null!;
